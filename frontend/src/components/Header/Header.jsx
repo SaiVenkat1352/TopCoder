@@ -38,7 +38,7 @@ const Header = () => {
         <Link to="/" className="flex items-center">
           <img src={compiler} alt="Flowbite Logo" className="mr-3 h-6 sm:h-9" />
           <span className="text-xl font-semibold dark:text-white">
-            Code Master
+            Top Coder
           </span>
         </Link>
 

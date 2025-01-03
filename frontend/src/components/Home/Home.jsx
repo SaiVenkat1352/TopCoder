@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <div className={`min-h-screen ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
-      <h1 className="text-center text-4xl p-5">Welcome to Code Master</h1>
+      <h1 className="text-center text-4xl p-5">Welcome to Top Coder</h1>
 
       {/* Main content layout */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 pt-5">
