@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install 
 
 # Copy the .env file into the container
-COPY .env ./
+
 
 # Copy the rest of the application code to the container
 COPY . .
@@ -24,8 +24,8 @@ ENV PORT=3000
 ENV JWT_SECRET=$%&*^$#@!*&
 ENV SUBMISSION_THRESHOLD=3
 ENV SCORE_PENALTY=15
-ENV mongo_url=mongodb+srv://kanagaddashivareddy:bhEFsj6CsFnPtxrF@cluster0.uvcd9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-ENV CLIENT_URL=https://online-judge-66ac41q0d-shiva-pasad-reddys-projects.vercel.app/
+ENV mongo_url=mongodb+srv://meesalavenkatasai9:EVu1xYzLpQlxDTPi@cluster0.90cpd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+ENV CLIENT_URL=*
 
 # Define the command to run the application
 CMD ["node", "Server.js"]
