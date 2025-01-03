@@ -1,4 +1,3 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/NewOnlineJudge/frontend/index.html" }],
-  "base": "/NewOnlineJudge/frontend"
-}
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  }
