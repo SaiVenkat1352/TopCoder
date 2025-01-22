@@ -1,4 +1,4 @@
-# Online Coding Judge Platform (Code Master)
+# Online Coding Judge Platform (Top Coder)
 
 An online judge platform for competitive programming enthusiasts, built using the MERN (MongoDB, Express, React, Node.js) stack. The platform supports code submission, evaluation, and leaderboard tracking in real-time.
 
@@ -32,7 +32,7 @@ An online judge platform for competitive programming enthusiasts, built using th
 
 ## Introduction
 
-Welcome to Code Master! This platform is designed to evaluate programming skills in a robust and scalable manner. It caters to developers, students, and professionals preparing for coding interviews or competitions.
+Welcome to Top Coder! This platform is designed to evaluate programming skills in a robust and scalable manner. It caters to developers, students, and professionals preparing for coding interviews or competitions.
 
 ## Tech Stack
 
