@@ -1,6 +1,6 @@
 import { useState, useContext} from "react";
 import { Link } from "react-router-dom";
-import compiler from "../../assets/compiler.png";
+import compiler from "../../assets/logo.jpg";
 import { ThemeContext } from "../../ThemeContext";
 import { useSelector } from "react-redux";
 import Profile from "./Profile";
@@ -36,7 +36,7 @@ const Header = () => {
     <nav className="bg-gray-100 shadow-md dark:bg-gray-800">
       <div className="max-w-screen-xl mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src={compiler} alt="Flowbite Logo" className="mr-3 h-6 sm:h-9" />
+          <img src={compiler} alt="Flowbite Logo" className="mr-3 h-12 sm:h-16" />
           <span className="text-xl font-semibold dark:text-white">
             Top Coder
           </span>

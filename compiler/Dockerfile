@@ -24,6 +24,7 @@ COPY . .
 
 # Expose port 8080 for the backend server
 EXPOSE 8080
-
+ENV CLIENT_URL=https://new-online-judge-8y8o.vercel.app
+ENV COMPILER_URL=https://api.codemater.site
 # Set the default command to start the application
 CMD ["node", "index.js"]

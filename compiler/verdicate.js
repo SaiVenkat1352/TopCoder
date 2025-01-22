@@ -10,7 +10,7 @@ export const verdict = async (ProblemId, executeCode) => {
 
   try {
     const response = await axios.get(
-      `http://localhost:3000/api/v1/testcases/problem/${ProblemId}`
+      `${process.env.COMPILER_URL}/api/v1/testcases/problem/${ProblemId}`
     );
 
   
